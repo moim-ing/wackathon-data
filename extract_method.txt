@@ -1,4 +1,0 @@
-!pip install -U yt-dlp
-!sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
-!sudo chmod a+rx /usr/local/bin/yt-dlp
-!yt-dlp -x --audio-format wav https://www.youtube.com/watch?v=9bZkp7q19f0
