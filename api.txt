@@ -1,0 +1,24 @@
+POST /extract_music
+Request
+{
+    url: String
+}
+
+Response
+{
+    key: String // 음원 s3 key
+}
+
+
+POST /compare
+Request
+{
+    source_key: String, // 음원 s3 key
+    recording_key: String, // 학생 오디오 s3 key
+    offset_milli: Long // 학생 오디오 녹음 시작 시각이 음원 재생 시작 시점보다 몇 밀리세컨드 뒤인지
+}
+
+Response
+{
+    result: Boolean // 출석 인정 여부
+}

@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+yt-dlp
+boto3
+python-dotenv
+librosa
+noisereduce
+scipy
