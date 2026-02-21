@@ -2,7 +2,7 @@ import logging
 import os
 import tempfile
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("uvicorn.error")
 
 import boto3
 import librosa
