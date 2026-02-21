@@ -24,7 +24,7 @@ S3_BUCKET = os.environ["S3_BUCKET"]
 
 SAMPLE_RATE = 16000
 MAX_OFFSET_SEC = 4.0
-CC_THRESHOLD = 0.25
+CC_THRESHOLD = 0.17
 
 
 def preprocess_denoise(path: str) -> np.ndarray:
